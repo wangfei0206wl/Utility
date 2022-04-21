@@ -1,0 +1,15 @@
+//
+//  UtilityPrefixHeader.pch
+//  Utility
+//
+//  Created by 王飞 on 2022/4/21.
+//
+
+#ifndef UtilityPrefixHeader_pch
+#define UtilityPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "GlobalMacro.h"
+
+#endif /* UtilityPrefixHeader_pch */

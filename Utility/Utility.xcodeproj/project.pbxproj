@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45924B14ACDDE0492DB204E7 /* Pods_Utility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86591B75A129941206A24276 /* Pods_Utility.framework */; };
+		7BA76AFF2811407600245B3A /* UILabel+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76AF62811407600245B3A /* UILabel+Factory.m */; };
+		7BA76B002811407600245B3A /* UIViewController+General.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76AF82811407600245B3A /* UIViewController+General.m */; };
+		7BA76B012811407600245B3A /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76AF92811407600245B3A /* UIView+Empty.m */; };
+		7BA76B022811407600245B3A /* UIButton+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76AFA2811407600245B3A /* UIButton+Factory.m */; };
 		7BE3C776280FF92F00259C83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3C775280FF92F00259C83 /* AppDelegate.m */; };
 		7BE3C779280FF92F00259C83 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3C778280FF92F00259C83 /* SceneDelegate.m */; };
 		7BE3C77C280FF92F00259C83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3C77B280FF92F00259C83 /* ViewController.m */; };
@@ -19,6 +24,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		555898218068B67A2D5C7A41 /* Pods-Utility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utility.debug.xcconfig"; path = "Target Support Files/Pods-Utility/Pods-Utility.debug.xcconfig"; sourceTree = "<group>"; };
+		7BA76AF62811407600245B3A /* UILabel+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Factory.m"; sourceTree = "<group>"; };
+		7BA76AF72811407600245B3A /* UIButton+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Factory.h"; sourceTree = "<group>"; };
+		7BA76AF82811407600245B3A /* UIViewController+General.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+General.m"; sourceTree = "<group>"; };
+		7BA76AF92811407600245B3A /* UIView+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Empty.m"; sourceTree = "<group>"; };
+		7BA76AFA2811407600245B3A /* UIButton+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Factory.m"; sourceTree = "<group>"; };
+		7BA76AFB2811407600245B3A /* UILabel+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Factory.h"; sourceTree = "<group>"; };
+		7BA76AFC2811407600245B3A /* UICategoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICategoryHeader.h; sourceTree = "<group>"; };
+		7BA76AFD2811407600245B3A /* UIView+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Empty.h"; sourceTree = "<group>"; };
+		7BA76AFE2811407600245B3A /* UIViewController+General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+General.h"; sourceTree = "<group>"; };
+		7BA76B04281140F400245B3A /* GlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalMacro.h; sourceTree = "<group>"; };
+		7BA76B052811417300245B3A /* UtilityPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilityPrefixHeader.pch; sourceTree = "<group>"; };
 		7BE3C771280FF92F00259C83 /* Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Utility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE3C774280FF92F00259C83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7BE3C775280FF92F00259C83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,6 +52,8 @@
 		7BE3C78F280FF96200259C83 /* TimerProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerProxy.m; sourceTree = "<group>"; };
 		7BE3C790280FF96200259C83 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
 		7BE3C791280FF96200259C83 /* TimerProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerProxy.h; sourceTree = "<group>"; };
+		86591B75A129941206A24276 /* Pods_Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		956E67E4E9A883FFAAB38A82 /* Pods-Utility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utility.release.xcconfig"; path = "Target Support Files/Pods-Utility/Pods-Utility.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,17 +61,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45924B14ACDDE0492DB204E7 /* Pods_Utility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78EDFF01FC79E37561264D40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				555898218068B67A2D5C7A41 /* Pods-Utility.debug.xcconfig */,
+				956E67E4E9A883FFAAB38A82 /* Pods-Utility.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7BA76AF42811407600245B3A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7BA76AF52811407600245B3A /* UI */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7BA76AF52811407600245B3A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7BA76AFC2811407600245B3A /* UICategoryHeader.h */,
+				7BA76AF72811407600245B3A /* UIButton+Factory.h */,
+				7BA76AFA2811407600245B3A /* UIButton+Factory.m */,
+				7BA76AFB2811407600245B3A /* UILabel+Factory.h */,
+				7BA76AF62811407600245B3A /* UILabel+Factory.m */,
+				7BA76AFD2811407600245B3A /* UIView+Empty.h */,
+				7BA76AF92811407600245B3A /* UIView+Empty.m */,
+				7BA76AFE2811407600245B3A /* UIViewController+General.h */,
+				7BA76AF82811407600245B3A /* UIViewController+General.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7BA76B03281140E100245B3A /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				7BA76B04281140F400245B3A /* GlobalMacro.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
 		7BE3C768280FF92F00259C83 = {
 			isa = PBXGroup;
 			children = (
 				7BE3C773280FF92F00259C83 /* Utility */,
 				7BE3C772280FF92F00259C83 /* Products */,
+				78EDFF01FC79E37561264D40 /* Pods */,
+				9EFF2BD17CEFCCACDDC2035E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +131,8 @@
 		7BE3C773280FF92F00259C83 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				7BA76B03281140E100245B3A /* Macros */,
+				7BA76AF42811407600245B3A /* Category */,
 				7BE3C78D280FF96200259C83 /* Timer */,
 				7BE3C774280FF92F00259C83 /* AppDelegate.h */,
 				7BE3C775280FF92F00259C83 /* AppDelegate.m */,
@@ -74,6 +140,7 @@
 				7BE3C778280FF92F00259C83 /* SceneDelegate.m */,
 				7BE3C77A280FF92F00259C83 /* ViewController.h */,
 				7BE3C77B280FF92F00259C83 /* ViewController.m */,
+				7BA76B052811417300245B3A /* UtilityPrefixHeader.pch */,
 				7BE3C77D280FF92F00259C83 /* Main.storyboard */,
 				7BE3C780280FF93100259C83 /* Assets.xcassets */,
 				7BE3C782280FF93100259C83 /* LaunchScreen.storyboard */,
@@ -94,6 +161,14 @@
 			path = Timer;
 			sourceTree = "<group>";
 		};
+		9EFF2BD17CEFCCACDDC2035E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86591B75A129941206A24276 /* Pods_Utility.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BE3C78A280FF93100259C83 /* Build configuration list for PBXNativeTarget "Utility" */;
 			buildPhases = (
+				F23A2200579740000F5CB4B3 /* [CP] Check Pods Manifest.lock */,
 				7BE3C76D280FF92F00259C83 /* Sources */,
 				7BE3C76E280FF92F00259C83 /* Frameworks */,
 				7BE3C76F280FF92F00259C83 /* Resources */,
+				1C40C0277128CC86470CC913 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,15 +236,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C40C0277128CC86470CC913 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Utility/Pods-Utility-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Utility/Pods-Utility-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Utility/Pods-Utility-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F23A2200579740000F5CB4B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Utility-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7BE3C76D280FF92F00259C83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BA76B012811407600245B3A /* UIView+Empty.m in Sources */,
 				7BE3C793280FF96200259C83 /* TimerProxy.m in Sources */,
 				7BE3C77C280FF92F00259C83 /* ViewController.m in Sources */,
 				7BE3C776280FF92F00259C83 /* AppDelegate.m in Sources */,
+				7BA76B022811407600245B3A /* UIButton+Factory.m in Sources */,
+				7BA76B002811407600245B3A /* UIViewController+General.m in Sources */,
 				7BE3C787280FF93100259C83 /* main.m in Sources */,
+				7BA76AFF2811407600245B3A /* UILabel+Factory.m in Sources */,
 				7BE3C779280FF92F00259C83 /* SceneDelegate.m in Sources */,
 				7BE3C792280FF96200259C83 /* GCDTimer.m in Sources */,
 			);
@@ -307,11 +430,13 @@
 		};
 		7BE3C78B280FF93100259C83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555898218068B67A2D5C7A41 /* Pods-Utility.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = Utility/UtilityPrefixheader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Utility/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -333,11 +458,13 @@
 		};
 		7BE3C78C280FF93100259C83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956E67E4E9A883FFAAB38A82 /* Pods-Utility.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = Utility/UtilityPrefixheader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Utility/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
