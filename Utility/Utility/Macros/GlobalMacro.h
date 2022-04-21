@@ -9,11 +9,11 @@
 #define GlobalMacro_h
 
 //Log宏
-#ifdef DEBUG
-    #define NSLog(fmt, ...) NSLog((fmt), ##__VA_ARGS__);
-#else
-    #define NSLog(...);
-#endif
+//#ifdef DEBUG
+//    #define NSLog(fmt, ...) NSLog((fmt), ##__VA_ARGS__);
+//#else
+//    #define NSLog(...);
+//#endif
 
 
 //#define SR_IS_IPHONEX [SRUtilities is_IphoneX]
