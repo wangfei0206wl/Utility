@@ -17,4 +17,8 @@
 // Good-interview
 // https://github.com/uzi-yyds-code/Good-interview
 
+// app启动流程
+
+// ui渲染相关
+
 #endif /* MustReadHeader_h */

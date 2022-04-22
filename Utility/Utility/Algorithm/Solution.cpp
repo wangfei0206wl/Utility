@@ -27,6 +27,12 @@ string Solution::longestPalindrome(string s) {
     return s.substr(start, end - start + 1);
 }
 
+int Solution::maxRotateFunction(vector<int>& nums) {
+    int res = 0;
+    
+    return res;
+}
+
 void Solution::func() {
     printf("hello");
 }

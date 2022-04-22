@@ -19,6 +19,7 @@ public:
     ~Solution() {}
     
     string longestPalindrome(string s);
+    int maxRotateFunction(vector<int>& nums);
     static void func();
     
 private:
