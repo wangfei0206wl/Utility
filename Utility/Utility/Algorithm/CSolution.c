@@ -9,6 +9,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
 void expandAroundCenter(char *s, int *left, int *right) {
     int len = (int)strlen(s);
     int tmpLeft = *left;
@@ -48,4 +50,19 @@ char *longestPalindrome(char *s) {
     memcpy(tmp, s + start, sublen);
     
     return tmp;
+}
+
+int maxRotateFunction(int *nums, int numsSize) {
+    int f = 0, numSum = 0;
+    for (int i = 0; i < numsSize; i++) {
+        f += i * nums[i];
+        numSum += nums[i];
+    }
+    int res = f;
+    for (int i = numsSize - 1; i > 0; i--) {
+        f += numSum - numsSize * nums[i];
+        res = MAX(res, f);
+    }
+    
+    return res;
 }

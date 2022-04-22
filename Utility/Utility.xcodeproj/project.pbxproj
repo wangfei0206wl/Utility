@@ -45,6 +45,7 @@
 		7BA76B0E28115AAE00245B3A /* AlgorithmHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AlgorithmHelper.mm; sourceTree = "<group>"; };
 		7BDF785D28124A6600717E0D /* CSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSolution.h; sourceTree = "<group>"; };
 		7BDF785E28124A6600717E0D /* CSolution.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CSolution.c; sourceTree = "<group>"; };
+		7BDF786028129DDB00717E0D /* MustReadHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MustReadHeader.h; sourceTree = "<group>"; };
 		7BE3C771280FF92F00259C83 /* Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Utility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE3C774280FF92F00259C83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7BE3C775280FF92F00259C83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				7BA76B04281140F400245B3A /* GlobalMacro.h */,
+				7BDF786028129DDB00717E0D /* MustReadHeader.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";

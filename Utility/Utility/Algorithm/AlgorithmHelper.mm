@@ -17,8 +17,12 @@
     [AlgorithmHelper cppLongestPalindromeTest];
 #endif
     
-#if 1
+#if 0
     [AlgorithmHelper cLongestPalindromeTest];
+#endif
+    
+#if 1
+    [AlgorithmHelper maxRotateFuncTest];
 #endif
     
 }
@@ -36,6 +40,13 @@
     char *res = longestPalindrome(test);
     
     printf("%s longest palindrome string: %s", test, res);
+}
+
++ (void)maxRotateFuncTest {
+    int nums[] = {4,3,2,6};
+    int max = maxRotateFunction(nums, sizeof(nums) / sizeof(int));
+    
+    printf("maxRotateFuncTest value: %d", max);
 }
 
 @end

@@ -16,6 +16,8 @@ extern "C" {
 
 char *longestPalindrome(char *s);
 
+int maxRotateFunction(int *nums, int numsSize);
+
 #ifdef __cplusplus
 }    // extern "C"
 #endif
