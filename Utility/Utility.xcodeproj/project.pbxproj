@@ -14,6 +14,7 @@
 		7BA76B022811407600245B3A /* UIButton+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76AFA2811407600245B3A /* UIButton+Factory.m */; };
 		7BA76B092811575800245B3A /* Solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76B072811575800245B3A /* Solution.cpp */; };
 		7BA76B0F28115AAE00245B3A /* AlgorithmHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76B0E28115AAE00245B3A /* AlgorithmHelper.mm */; };
+		7BDF785F28124A6600717E0D /* CSolution.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BDF785E28124A6600717E0D /* CSolution.c */; };
 		7BE3C776280FF92F00259C83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3C775280FF92F00259C83 /* AppDelegate.m */; };
 		7BE3C779280FF92F00259C83 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3C778280FF92F00259C83 /* SceneDelegate.m */; };
 		7BE3C77C280FF92F00259C83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3C77B280FF92F00259C83 /* ViewController.m */; };
@@ -42,6 +43,8 @@
 		7BA76B082811575800245B3A /* Solution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution.hpp; sourceTree = "<group>"; };
 		7BA76B0D28115AAE00245B3A /* AlgorithmHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmHelper.h; sourceTree = "<group>"; };
 		7BA76B0E28115AAE00245B3A /* AlgorithmHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AlgorithmHelper.mm; sourceTree = "<group>"; };
+		7BDF785D28124A6600717E0D /* CSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSolution.h; sourceTree = "<group>"; };
+		7BDF785E28124A6600717E0D /* CSolution.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CSolution.c; sourceTree = "<group>"; };
 		7BE3C771280FF92F00259C83 /* Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Utility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE3C774280FF92F00259C83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7BE3C775280FF92F00259C83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 			children = (
 				7BA76B082811575800245B3A /* Solution.hpp */,
 				7BA76B072811575800245B3A /* Solution.cpp */,
+				7BDF785D28124A6600717E0D /* CSolution.h */,
+				7BDF785E28124A6600717E0D /* CSolution.c */,
 				7BA76B0D28115AAE00245B3A /* AlgorithmHelper.h */,
 				7BA76B0E28115AAE00245B3A /* AlgorithmHelper.mm */,
 			);
@@ -311,6 +316,7 @@
 				7BE3C787280FF93100259C83 /* main.m in Sources */,
 				7BA76AFF2811407600245B3A /* UILabel+Factory.m in Sources */,
 				7BE3C779280FF92F00259C83 /* SceneDelegate.m in Sources */,
+				7BDF785F28124A6600717E0D /* CSolution.c in Sources */,
 				7BE3C792280FF96200259C83 /* GCDTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
