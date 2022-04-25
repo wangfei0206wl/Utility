@@ -16,9 +16,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSLog(@"didFinishLaunchingWithOptions");
     return YES;
 }
 
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    NSLog(@"applicationDidBecomeActive");
+}
 
 #pragma mark - UISceneSession lifecycle
 

@@ -18,6 +18,10 @@
 // https://github.com/uzi-yyds-code/Good-interview
 
 // app启动流程
+// iOS-APP的启动流程和生命周期
+// https://www.jianshu.com/p/229dd6190b95
+// iOS应用的启动流程和优化详解
+// https://juejin.cn/post/6951591401528229895
 
 // ui渲染相关
 
