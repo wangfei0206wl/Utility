@@ -21,8 +21,12 @@
     [AlgorithmHelper cLongestPalindromeTest];
 #endif
     
-#if 1
+#if 0
     [AlgorithmHelper maxRotateFuncTest];
+#endif
+    
+#if 1
+    [AlgorithmHelper sortArraybyParityTest];
 #endif
     
 }
@@ -47,6 +51,16 @@
     int max = maxRotateFunction(nums, sizeof(nums) / sizeof(int));
     
     printf("maxRotateFuncTest value: %d", max);
+}
+
++ (void)sortArraybyParityTest {
+    int nums[] = {3, 1, 2, 4};
+    int size = sizeof(nums) / sizeof(int);
+    int returnSize = 0;
+    
+    int *resultNums = sortArrayByParity(nums, size, &returnSize);
+    
+    printf("returnSize: %d", returnSize);
 }
 
 @end

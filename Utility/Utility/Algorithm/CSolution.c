@@ -66,3 +66,62 @@ int maxRotateFunction(int *nums, int numsSize) {
     
     return res;
 }
+
+int* sortArrayByParity(int* nums, int numsSize, int* returnSize) {
+#if 0
+    int left = 0, right = numsSize - 1;
+    
+    while (left < right) {
+        int leftNum = nums[left];
+        
+        if (leftNum % 2 == 1) {
+            // 奇数
+            while (right > left) {
+                int rightNum = nums[right];
+                
+                if (rightNum % 2 == 1) {
+                    // 奇数
+                    right--;
+                } else {
+                    // 偶数，交换位置
+                    nums[left] = rightNum;
+                    nums[right] = leftNum;
+                    left++;
+                    right--;
+                    break;
+                }
+            }
+        } else {
+            // 偶数
+            left++;
+        }
+    }
+    
+    *returnSize = numsSize;
+    
+    return nums;
+#endif
+#if 1
+    int left = 0, right = numsSize - 1;
+    
+    while (left < right) {
+        while (left < right && nums[left] % 2 == 0) {
+            left++;
+        }
+        while (left < right && nums[right] % 2 == 1) {
+            right--;
+        }
+        
+        if (left < right) {
+            int tmp = nums[left];
+            nums[left] = nums[right];
+            nums[right] = tmp;
+            left++;
+            right--;
+        }
+    }
+    
+    *returnSize = numsSize;
+    return nums;
+#endif
+}
