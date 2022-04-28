@@ -7,7 +7,8 @@
 
 #import "AlgorithmHelper.h"
 #include "Solution.hpp"
-#import "CSolution.h"
+#include "CSolution.h"
+#include "CBitTree.h"
 
 @implementation AlgorithmHelper
 
@@ -29,8 +30,12 @@
     [AlgorithmHelper sortArraybyParityTest];
 #endif
     
-#if 1
+#if 0
     [AlgorithmHelper reverseTest];
+#endif
+    
+#if 1
+    [AlgorithmHelper bitTreeTest];
 #endif
     
 }
@@ -72,6 +77,18 @@
     int result = reverse(num);
     
     printf("num %d reverse %d", num, result);
+}
+
++ (void)bitTreeTest {
+    BitTree tree = createLink();
+    printf("先序：\n");
+    showPreOrderTree(tree);
+    printf("\n中序：\n");
+    showMidOrderTree(tree);
+    printf("\n后序：\n");
+    showPostOrderTree(tree);
+    printf("\n层次：\n");
+    showlevelOrderTree(tree);
 }
 
 @end
