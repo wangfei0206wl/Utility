@@ -8,6 +8,7 @@
 #include "CSolution.h"
 #include <string.h>
 #include <stdlib.h>
+#include <limits.h>
 
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 
@@ -124,4 +125,20 @@ int* sortArrayByParity(int* nums, int numsSize, int* returnSize) {
     *returnSize = numsSize;
     return nums;
 #endif
+}
+
+int reverse(int x) {
+    int result = 0;
+    
+    while (x != 0) {
+        if (result < INT_MIN / 10 || result > INT_MAX / 10) {
+            return 0;
+        }
+        
+        int digit = x % 10;
+        result = result * 10 + digit;
+        x = x / 10;
+    }
+    
+    return result;
 }

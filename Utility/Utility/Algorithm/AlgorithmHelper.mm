@@ -25,8 +25,12 @@
     [AlgorithmHelper maxRotateFuncTest];
 #endif
     
-#if 1
+#if 0
     [AlgorithmHelper sortArraybyParityTest];
+#endif
+    
+#if 1
+    [AlgorithmHelper reverseTest];
 #endif
     
 }
@@ -61,6 +65,13 @@
     int *resultNums = sortArrayByParity(nums, size, &returnSize);
     
     printf("returnSize: %d", returnSize);
+}
+
++ (void)reverseTest {
+    int num = 310;
+    int result = reverse(num);
+    
+    printf("num %d reverse %d", num, result);
 }
 
 @end

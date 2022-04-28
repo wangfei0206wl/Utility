@@ -20,6 +20,8 @@ int maxRotateFunction(int *nums, int numsSize);
 
 int* sortArrayByParity(int* nums, int numsSize, int* returnSize);
 
+int reverse(int x);
+
 #ifdef __cplusplus
 }    // extern "C"
 #endif
