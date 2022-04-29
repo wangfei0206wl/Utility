@@ -32,4 +32,7 @@
 
 // MQTT消息
 
+// iOS APP架构设计
+// https://zhuanlan.zhihu.com/p/387092581
+
 #endif /* MustReadHeader_h */
