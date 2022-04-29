@@ -34,8 +34,12 @@
     [AlgorithmHelper reverseTest];
 #endif
     
-#if 1
+#if 0
     [AlgorithmHelper bitTreeTest];
+#endif
+    
+#if 1
+    [AlgorithmHelper zstringConvertTest];
 #endif
     
 }
@@ -89,6 +93,15 @@
     showPostOrderTree(tree);
     printf("\n层次：\n");
     showlevelOrderTree(tree);
+}
+
++ (void)zstringConvertTest {
+    char s[] = "PAYPALISHIRING";
+    int numRows = 4;
+    
+    char *res = stringzconvert(s, numRows);
+    
+    printf("%s zconvert : %s", s, res);
 }
 
 @end
