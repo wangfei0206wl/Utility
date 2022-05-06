@@ -26,6 +26,7 @@
 		7BE3C787280FF93100259C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3C786280FF93100259C83 /* main.m */; };
 		7BE3C792280FF96200259C83 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3C78E280FF96200259C83 /* GCDTimer.m */; };
 		7BE3C793280FF96200259C83 /* TimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3C78F280FF96200259C83 /* TimerProxy.m */; };
+		7BF0DD12282517D1008BDA8D /* RecentCounter.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BF0DD11282517D1008BDA8D /* RecentCounter.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,8 @@
 		7BE3C78F280FF96200259C83 /* TimerProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerProxy.m; sourceTree = "<group>"; };
 		7BE3C790280FF96200259C83 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
 		7BE3C791280FF96200259C83 /* TimerProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerProxy.h; sourceTree = "<group>"; };
+		7BF0DD10282517D1008BDA8D /* RecentCounter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecentCounter.h; sourceTree = "<group>"; };
+		7BF0DD11282517D1008BDA8D /* RecentCounter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RecentCounter.c; sourceTree = "<group>"; };
 		86591B75A129941206A24276 /* Pods_Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		956E67E4E9A883FFAAB38A82 /* Pods-Utility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utility.release.xcconfig"; path = "Target Support Files/Pods-Utility/Pods-Utility.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +140,8 @@
 				7BA5299B281A8B990094285E /* CBitTree.c */,
 				7BA5299D281A956B0094285E /* CQueue.h */,
 				7BA5299E281A956B0094285E /* CQueue.c */,
+				7BF0DD10282517D1008BDA8D /* RecentCounter.h */,
+				7BF0DD11282517D1008BDA8D /* RecentCounter.c */,
 				7BA76B0D28115AAE00245B3A /* AlgorithmHelper.h */,
 				7BA76B0E28115AAE00245B3A /* AlgorithmHelper.mm */,
 			);
@@ -318,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BA76B012811407600245B3A /* UIView+Empty.m in Sources */,
+				7BF0DD12282517D1008BDA8D /* RecentCounter.c in Sources */,
 				7BA5299F281A956B0094285E /* CQueue.c in Sources */,
 				7BE3C793280FF96200259C83 /* TimerProxy.m in Sources */,
 				7BE3C77C280FF92F00259C83 /* ViewController.m in Sources */,
