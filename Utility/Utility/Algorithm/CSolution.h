@@ -18,6 +18,12 @@ char *longestPalindrome(char *s);
 
 int maxRotateFunction(int *nums, int numsSize);
 
+int* sortArrayByParity(int* nums, int numsSize, int* returnSize);
+
+int reverse(int x);
+
+char *stringzconvert(char * s, int numRows);
+
 #ifdef __cplusplus
 }    // extern "C"
 #endif
