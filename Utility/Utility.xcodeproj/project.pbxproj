@@ -16,6 +16,13 @@
 		7BA76B022811407600245B3A /* UIButton+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76AFA2811407600245B3A /* UIButton+Factory.m */; };
 		7BA76B092811575800245B3A /* Solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76B072811575800245B3A /* Solution.cpp */; };
 		7BA76B0F28115AAE00245B3A /* AlgorithmHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76B0E28115AAE00245B3A /* AlgorithmHelper.mm */; };
+		7BABA212282CAE740008ADFD /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BABA211282CAE740008ADFD /* PersonViewController.m */; };
+		7BABA215282CAE840008ADFD /* ClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BABA214282CAE840008ADFD /* ClassViewController.m */; };
+		7BABA218282CB2150008ADFD /* SampleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BABA217282CB2150008ADFD /* SampleManager.m */; };
+		7BABA21F282CBE260008ADFD /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BABA21B282CBE260008ADFD /* CTMediator+HandyTools.m */; };
+		7BABA220282CBE260008ADFD /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BABA21C282CBE260008ADFD /* CTMediator.m */; };
+		7BABA223282CBE5E0008ADFD /* CTMediator+CTMediatorModuleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BABA222282CBE5E0008ADFD /* CTMediator+CTMediatorModuleActions.m */; };
+		7BABA226282CBEF00008ADFD /* Target_Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BABA225282CBEF00008ADFD /* Target_Action.m */; };
 		7BDF785F28124A6600717E0D /* CSolution.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BDF785E28124A6600717E0D /* CSolution.c */; };
 		7BE3C776280FF92F00259C83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3C775280FF92F00259C83 /* AppDelegate.m */; };
 		7BE3C779280FF92F00259C83 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3C778280FF92F00259C83 /* SceneDelegate.m */; };
@@ -50,6 +57,21 @@
 		7BA76B082811575800245B3A /* Solution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution.hpp; sourceTree = "<group>"; };
 		7BA76B0D28115AAE00245B3A /* AlgorithmHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmHelper.h; sourceTree = "<group>"; };
 		7BA76B0E28115AAE00245B3A /* AlgorithmHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AlgorithmHelper.mm; sourceTree = "<group>"; };
+		7BABA210282CAE740008ADFD /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		7BABA211282CAE740008ADFD /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		7BABA213282CAE840008ADFD /* ClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassViewController.h; sourceTree = "<group>"; };
+		7BABA214282CAE840008ADFD /* ClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassViewController.m; sourceTree = "<group>"; };
+		7BABA216282CB2150008ADFD /* SampleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleManager.h; sourceTree = "<group>"; };
+		7BABA217282CB2150008ADFD /* SampleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleManager.m; sourceTree = "<group>"; };
+		7BABA219282CB3950008ADFD /* readme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = readme.h; sourceTree = "<group>"; };
+		7BABA21B282CBE260008ADFD /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		7BABA21C282CBE260008ADFD /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		7BABA21D282CBE260008ADFD /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+HandyTools.h"; sourceTree = "<group>"; };
+		7BABA21E282CBE260008ADFD /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		7BABA221282CBE5E0008ADFD /* CTMediator+CTMediatorModuleActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+CTMediatorModuleActions.h"; sourceTree = "<group>"; };
+		7BABA222282CBE5E0008ADFD /* CTMediator+CTMediatorModuleActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+CTMediatorModuleActions.m"; sourceTree = "<group>"; };
+		7BABA224282CBEF00008ADFD /* Target_Action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Action.h; sourceTree = "<group>"; };
+		7BABA225282CBEF00008ADFD /* Target_Action.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Action.m; sourceTree = "<group>"; };
 		7BDF785D28124A6600717E0D /* CSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSolution.h; sourceTree = "<group>"; };
 		7BDF785E28124A6600717E0D /* CSolution.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CSolution.c; sourceTree = "<group>"; };
 		7BDF786028129DDB00717E0D /* MustReadHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MustReadHeader.h; sourceTree = "<group>"; };
@@ -148,6 +170,76 @@
 			path = Algorithm;
 			sourceTree = "<group>";
 		};
+		7BABA20A282CAE2A0008ADFD /* Componentized */ = {
+			isa = PBXGroup;
+			children = (
+				7BABA20B282CAE2A0008ADFD /* CTMediator */,
+				7BABA20C282CAE2A0008ADFD /* URLRoute */,
+				7BABA20D282CAE2A0008ADFD /* Sample */,
+			);
+			path = Componentized;
+			sourceTree = "<group>";
+		};
+		7BABA20B282CAE2A0008ADFD /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				7BABA21A282CBE260008ADFD /* 3rd */,
+				7BABA221282CBE5E0008ADFD /* CTMediator+CTMediatorModuleActions.h */,
+				7BABA222282CBE5E0008ADFD /* CTMediator+CTMediatorModuleActions.m */,
+				7BABA224282CBEF00008ADFD /* Target_Action.h */,
+				7BABA225282CBEF00008ADFD /* Target_Action.m */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		7BABA20C282CAE2A0008ADFD /* URLRoute */ = {
+			isa = PBXGroup;
+			children = (
+				7BABA219282CB3950008ADFD /* readme.h */,
+			);
+			path = URLRoute;
+			sourceTree = "<group>";
+		};
+		7BABA20D282CAE2A0008ADFD /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				7BABA20E282CAE2A0008ADFD /* Person */,
+				7BABA20F282CAE2A0008ADFD /* Class */,
+				7BABA216282CB2150008ADFD /* SampleManager.h */,
+				7BABA217282CB2150008ADFD /* SampleManager.m */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		7BABA20E282CAE2A0008ADFD /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				7BABA210282CAE740008ADFD /* PersonViewController.h */,
+				7BABA211282CAE740008ADFD /* PersonViewController.m */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		7BABA20F282CAE2A0008ADFD /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7BABA213282CAE840008ADFD /* ClassViewController.h */,
+				7BABA214282CAE840008ADFD /* ClassViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		7BABA21A282CBE260008ADFD /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				7BABA21E282CBE260008ADFD /* CTMediator.h */,
+				7BABA21C282CBE260008ADFD /* CTMediator.m */,
+				7BABA21D282CBE260008ADFD /* CTMediator+HandyTools.h */,
+				7BABA21B282CBE260008ADFD /* CTMediator+HandyTools.m */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
 		7BE3C768280FF92F00259C83 = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +261,7 @@
 		7BE3C773280FF92F00259C83 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				7BABA20A282CAE2A0008ADFD /* Componentized */,
 				7BA76B062811572D00245B3A /* Algorithm */,
 				7BA76B03281140E100245B3A /* Macros */,
 				7BA76AF42811407600245B3A /* Category */,
@@ -322,20 +415,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BABA218282CB2150008ADFD /* SampleManager.m in Sources */,
 				7BA76B012811407600245B3A /* UIView+Empty.m in Sources */,
 				7BF0DD12282517D1008BDA8D /* RecentCounter.c in Sources */,
 				7BA5299F281A956B0094285E /* CQueue.c in Sources */,
 				7BE3C793280FF96200259C83 /* TimerProxy.m in Sources */,
 				7BE3C77C280FF92F00259C83 /* ViewController.m in Sources */,
+				7BABA220282CBE260008ADFD /* CTMediator.m in Sources */,
+				7BABA21F282CBE260008ADFD /* CTMediator+HandyTools.m in Sources */,
 				7BE3C776280FF92F00259C83 /* AppDelegate.m in Sources */,
+				7BABA212282CAE740008ADFD /* PersonViewController.m in Sources */,
 				7BA76B092811575800245B3A /* Solution.cpp in Sources */,
 				7BA76B0F28115AAE00245B3A /* AlgorithmHelper.mm in Sources */,
 				7BA76B022811407600245B3A /* UIButton+Factory.m in Sources */,
 				7BA76B002811407600245B3A /* UIViewController+General.m in Sources */,
+				7BABA226282CBEF00008ADFD /* Target_Action.m in Sources */,
+				7BABA215282CAE840008ADFD /* ClassViewController.m in Sources */,
 				7BE3C787280FF93100259C83 /* main.m in Sources */,
 				7BA76AFF2811407600245B3A /* UILabel+Factory.m in Sources */,
 				7BE3C779280FF92F00259C83 /* SceneDelegate.m in Sources */,
 				7BA5299C281A8B990094285E /* CBitTree.c in Sources */,
+				7BABA223282CBE5E0008ADFD /* CTMediator+CTMediatorModuleActions.m in Sources */,
 				7BDF785F28124A6600717E0D /* CSolution.c in Sources */,
 				7BE3C792280FF96200259C83 /* GCDTimer.m in Sources */,
 			);
