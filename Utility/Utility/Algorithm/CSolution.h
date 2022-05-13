@@ -24,6 +24,10 @@ int reverse(int x);
 
 char *stringzconvert(char * s, int numRows);
 
+char * stringMultiply(char *num1, char *num2);
+
+int addDigits(int num);
+
 #ifdef __cplusplus
 }    // extern "C"
 #endif

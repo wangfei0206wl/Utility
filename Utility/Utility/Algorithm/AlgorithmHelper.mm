@@ -38,8 +38,12 @@
     [AlgorithmHelper bitTreeTest];
 #endif
     
-#if 1
+#if 0
     [AlgorithmHelper zstringConvertTest];
+#endif
+    
+#if 1
+    [AlgorithmHelper stringMultiplyTest];
 #endif
     
 }
@@ -102,6 +106,15 @@
     char *res = stringzconvert(s, numRows);
     
     printf("%s zconvert : %s", s, res);
+}
+
++ (void)stringMultiplyTest {
+    char *num1 = "2";
+    char *num2 = "3";
+    
+    char *res = stringMultiply(num1, num2);
+    
+    printf("%s * %s = %s", num1, num2, res);
 }
 
 @end

@@ -162,3 +162,37 @@ char *stringzconvert(char *s, int numRows) {
     ans[pos] = '\0';
     return ans;
 }
+
+char * stringMultiply(char *num1, char *num2) {
+    int len1 = (int)strlen(num1);
+    int len2 = (int)strlen(num2);
+    char *result = (char *)malloc(len1 + len2);
+    memset(result, '0', len1 + len2);
+    
+    for (int i = len1 - 1; i >= 0; i--) {
+        for (int j = len2 - 1; j >= 0; j--) {
+            result[i + j + 1] = (result[i + j + 1] - '0') + ((num1[i] - '0') * (num2[j] - '0'));
+            result[i + j] += (result[i + j + 1] / 10);
+            result[i + j + 1] = result[i + j + 1] % 10 + '0';
+        }
+    }
+    for (int i = 0; i < len1 + len2; i++) {
+        if (result[i] != '0') {
+            char *str = (char *)malloc(len1 + len2 + 1 - i);
+            memset(str, 0, len1 + len2 + 1 - i);
+            memcpy(str, result + i, len1 + len2 - i);
+            return str;
+        }
+    }
+    return "0";
+}
+
+int addDigits(int num) {
+    if (num == 0) {
+        return 0;
+    } else if (num % 9 == 0) {
+        return 9;
+    } else {
+        return num % 9;
+    }
+}
