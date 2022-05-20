@@ -18,11 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-#if 0
+#if 1
     [AlgorithmHelper test];
 #endif
 
-#if 1
+#if 0
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [SampleManager showSample:self];
     });

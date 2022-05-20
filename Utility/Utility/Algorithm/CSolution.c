@@ -196,3 +196,44 @@ int addDigits(int num) {
         return num % 9;
     }
 }
+
+char * binaryAddFunction(char *num1, char *num2) {
+    int len1 = (int)strlen(num1);
+    int len2 = (int)strlen(num2);
+    int len = MAX(len1, len2) + 1;
+    char *dest = (char *)malloc(len);
+    
+    memset(dest, '0', len);
+    
+    int count = 0;
+    int carryValue = 0;
+    
+    while (count < len) {
+        int index1 = len1 - count - 1;
+        int index2 = len2 - count - 1;
+        int index = len - count - 1;
+        int value1 = index1 >= 0 ? (num1[index1] - '0') : 0;
+        int value2 = index2 >= 0 ? (num2[index2] - '0') : 0;
+        int value = value1 + value2 + carryValue;
+        
+        dest[index] = value % 2 + '0';
+        carryValue = value / 2;
+
+        count++;
+    }
+    
+    
+    for (int i = 0; i < len; i++) {
+        if (dest[i] != '0') {
+            // 从i位置开始向后拷贝
+            int trueLen = len - i;
+            char *final = (char *)malloc(trueLen + 1);
+            memset(final, 0, trueLen + 1);
+            memcpy(final, dest + i, trueLen);
+            
+            return final;;
+        }
+    }
+    
+    return "0";
+}

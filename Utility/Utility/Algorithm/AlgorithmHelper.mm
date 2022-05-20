@@ -42,8 +42,12 @@
     [AlgorithmHelper zstringConvertTest];
 #endif
     
-#if 1
+#if 0
     [AlgorithmHelper stringMultiplyTest];
+#endif
+    
+#if 1
+    [AlgorithmHelper stringBinaryAddTest];
 #endif
     
 }
@@ -115,6 +119,16 @@
     char *res = stringMultiply(num1, num2);
     
     printf("%s * %s = %s", num1, num2, res);
+}
+
++ (void)stringBinaryAddTest {
+    char *num1 = "1011001";
+    char *num2 = "1000110";
+    
+    char *res = binaryAddFunction(num1, num2);
+    
+    printf("%s + %s = %s", num1, num2, res);
+    
 }
 
 @end

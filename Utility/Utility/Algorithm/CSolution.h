@@ -28,6 +28,8 @@ char * stringMultiply(char *num1, char *num2);
 
 int addDigits(int num);
 
+char * binaryAddFunction(char *num1, char *num2);
+
 #ifdef __cplusplus
 }    // extern "C"
 #endif

@@ -41,6 +41,7 @@
 		7B362477282DF0F000547C4A /* readme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readme.h; sourceTree = "<group>"; };
 		7B362478282E553100547C4A /* readme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = readme.h; sourceTree = "<group>"; };
 		7B36247A282E57D700547C4A /* 数组与集合.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "数组与集合.h"; sourceTree = "<group>"; };
+		7B36247B282F40D300547C4A /* 启动流程及优化.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "启动流程及优化.h"; sourceTree = "<group>"; };
 		7BA5299A281A8B990094285E /* CBitTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBitTree.h; sourceTree = "<group>"; };
 		7BA5299B281A8B990094285E /* CBitTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CBitTree.c; sourceTree = "<group>"; };
 		7BA5299D281A956B0094285E /* CQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQueue.h; sourceTree = "<group>"; };
@@ -127,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				7B36247A282E57D700547C4A /* 数组与集合.h */,
+				7B36247B282F40D300547C4A /* 启动流程及优化.h */,
 			);
 			path = BaseKnowledge;
 			sourceTree = "<group>";
