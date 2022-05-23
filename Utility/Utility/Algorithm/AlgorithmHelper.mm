@@ -46,8 +46,12 @@
     [AlgorithmHelper stringMultiplyTest];
 #endif
     
-#if 1
+#if 0
     [AlgorithmHelper stringBinaryAddTest];
+#endif
+    
+#if 1
+    [AlgorithmHelper divideFunctionTest];
 #endif
     
 }
@@ -128,7 +132,14 @@
     char *res = binaryAddFunction(num1, num2);
     
     printf("%s + %s = %s", num1, num2, res);
+}
+
++ (void)divideFunctionTest {
+    int divident = 21;
+    int divisor = 7;
+    int res = divideCoreFunction(divident, divisor);
     
+    printf("%d / %d = %d", divident, divisor, res);
 }
 
 @end

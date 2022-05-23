@@ -30,6 +30,8 @@ int addDigits(int num);
 
 char * binaryAddFunction(char *num1, char *num2);
 
+int divideCoreFunction(int divident, int divisor);
+
 #ifdef __cplusplus
 }    // extern "C"
 #endif

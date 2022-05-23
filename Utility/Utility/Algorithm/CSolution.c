@@ -237,3 +237,24 @@ char * binaryAddFunction(char *num1, char *num2) {
     
     return "0";
 }
+
+int divideCoreFunction(int divident, int divisor) {
+    int result = 0;
+    
+    while (divident >= divisor) {
+        int tempDivisor = divisor;
+        int quotient = 1;
+        
+        while (divident >= (tempDivisor + tempDivisor)) {
+            // 如果被除数大于2倍的除数，则被除数进行扩大
+            tempDivisor += tempDivisor;
+            quotient += quotient;
+        }
+        // 得到新的被除数
+        divident -= tempDivisor;
+        // 加上此次的商
+        result += quotient;
+    }
+    
+    return result;
+}
