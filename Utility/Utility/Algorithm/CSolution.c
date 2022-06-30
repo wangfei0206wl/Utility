@@ -6,6 +6,7 @@
 //
 
 #include "CSolution.h"
+#include <stdbool.h>
 #include <string.h>
 #include <stdlib.h>
 #include <limits.h>
@@ -257,4 +258,107 @@ int divideCoreFunction(int divident, int divisor) {
     }
     
     return result;
+}
+
+int maxProductWithHashMap(char *string[], int size);
+int maxProductWithBitOperation(char *string[], int size);
+
+int maxProduct(char *string[], int size) {
+    return maxProductWithBitOperation(string, size);
+//    return maxProductWithHashMap(string, size);
+}
+
+int maxProductWithHashMap(char *string[], int size) {
+    bool **hashMap = (bool **)malloc(size);
+    
+    for (int i = 0; i < size; i++) {
+        char *words = string[i];
+        int length = (int)strlen(words);
+        hashMap[i] = (bool *)malloc(26);
+        memset(hashMap[i], 0, 26);
+        
+        for (int j = 0; j < length; j++) {
+            char word = words[j];
+            hashMap[i][word - 'a'] = true;
+        }
+    }
+    
+    int result = 0;
+    
+    for (int i = 0; i < size; i++) {
+        for (int j = i + 1; j < size; j++) {
+            int k = 0;
+            for (; k < 26; k ++) {
+                if (hashMap[i][k] && hashMap[j][k]) {
+                    break;
+                }
+            }
+            if (k == 26) {
+                // 两个字符串不同
+                int product = (int)strlen(string[i]) * (int)strlen(string[j]);
+                result = MAX(product, result);
+            }
+        }
+        free(hashMap[i]);
+    }
+    free(hashMap);
+    return result;
+}
+
+int maxProductWithBitOperation(char *string[], int size) {
+    int *flags = (int *)malloc(size * sizeof(int));
+    memset(flags, 0, size * sizeof(int));
+    
+    for (int i = 0; i < size; i++) {
+        char *words = string[i];
+        int length = (int)strlen(words);
+        
+        for (int j = 0; j < length; j++) {
+            char word = words[j];
+            flags[i] |= 1 << (word - 'a');
+        }
+    }
+    
+    int result = 0;
+    
+    for (int i = 0; i < size; i++) {
+        for (int j = i + 1; j < size; j++) {
+            if ((flags[i] & flags[j]) == 0) {
+                int product = (int)strlen(string[i]) * (int)strlen(string[j]);
+                result = MAX(product, result);
+            }
+        }
+    }
+    
+    free(flags);
+    return result;
+}
+
+int *sumNum(int *nums, int count, int target) {
+    int preIndex = 0;
+    int tailIndex = count - 1;
+    
+    while (preIndex < tailIndex) {
+        int sum = nums[preIndex] + nums[tailIndex];
+        
+        if (sum > target) {
+            // 和大于目标数字，则右指定左移一位
+            tailIndex--;
+        } else if (sum < target) {
+            // 和小于目标数字，则左指针右移一位
+            preIndex++;
+        } else {
+            // 如果相等，则找到对应的两个数字
+            break;
+        }
+    }
+    
+    if (preIndex != tailIndex) {
+        // 找到对应的两个数字
+        int indexs[] = {preIndex, tailIndex};
+        return indexs;
+    } else {
+        // 未找到对应的数字
+        return NULL;
+    }
 }

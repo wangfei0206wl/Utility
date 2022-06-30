@@ -50,8 +50,16 @@
     [AlgorithmHelper stringBinaryAddTest];
 #endif
     
-#if 1
+#if 0
     [AlgorithmHelper divideFunctionTest];
+#endif
+    
+#if 0
+    [AlgorithmHelper maxProductTest];
+#endif
+    
+#if 1
+    [AlgorithmHelper twoSumTest];
 #endif
     
 }
@@ -140,6 +148,26 @@
     int res = divideCoreFunction(divident, divisor);
     
     printf("%d / %d = %d", divident, divisor, res);
+}
+
++ (void)maxProductTest {
+    char *string[] = {"abcw", "foo", "bar", "fxyz", "abcdef"};
+    int res = maxProduct(string, 5);
+    
+    printf("max product is %d", res);
+}
+
++ (void)twoSumTest {
+    int nums[] = {1, 2, 4, 6, 10};
+    int target = 8;
+    
+    int *indexs = sumNum(nums, sizeof(nums) / sizeof(int), target);
+    
+    if (indexs) {
+        printf("%d + %d = %d", nums[indexs[0]], nums[indexs[1]], target);
+    } else {
+        printf("can't found nums sum equal to %d", target);
+    }
 }
 
 @end

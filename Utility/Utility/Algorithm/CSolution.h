@@ -32,6 +32,12 @@ char * binaryAddFunction(char *num1, char *num2);
 
 int divideCoreFunction(int divident, int divisor);
 
+// 字符串数组中不相同字符串(只考虑小写英文字母)的最大乘积
+int maxProduct(char *string[], int size);
+
+// 升序排序的整数数组中查找两数之和等于target的两数的下标并返回
+int *sumNum(int *nums, int count, int target);
+
 #ifdef __cplusplus
 }    // extern "C"
 #endif
