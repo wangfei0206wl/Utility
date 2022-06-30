@@ -38,4 +38,16 @@
 // pod私有库创建
 // MGJRouter应用
 
+
+// 监控底层网络库
+https://github.com/aozhimin/iOS-Monitor-Platform/blob/master/iOS-Monitor-Platform_Network.md
+// 流量监控分析
+https://juejin.cn/post/6844903616696844302#heading-16
+// 流量监测
+https://www.jianshu.com/p/7fde04cb4459
+
+
+// iOS设计模式
+https://www.jianshu.com/p/9c4a219e9cf9
+
 #endif /* MustReadHeader_h */
