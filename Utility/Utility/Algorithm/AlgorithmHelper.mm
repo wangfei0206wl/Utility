@@ -9,6 +9,8 @@
 #include "Solution.hpp"
 #include "CSolution.h"
 #include "CBitTree.h"
+#include "CSortAlgorithm.h"
+#include "CSearchAlgorithm.h"
 
 @implementation AlgorithmHelper
 
@@ -58,8 +60,16 @@
     [AlgorithmHelper maxProductTest];
 #endif
     
-#if 1
+#if 0
     [AlgorithmHelper twoSumTest];
+#endif
+    
+#if 0
+    [AlgorithmHelper quickSortTest];
+#endif
+    
+#if 1
+    [AlgorithmHelper binarySearchTest];
 #endif
     
 }
@@ -168,6 +178,24 @@
     } else {
         printf("can't found nums sum equal to %d", target);
     }
+}
+
++ (void)quickSortTest {
+    int nums[] = {34, 5, 6, 22, 56, 88, 11, 2, 4, 0};
+    
+    quickSort(nums, sizeof(nums) / sizeof(int));
+    
+    printf("sort complete");
+}
+
++ (void)binarySearchTest {
+    int nums[] = {34, 5, 6, 22, 56, 88, 11, 2, 4, 0};
+    int count = sizeof(nums) / sizeof(int);
+    
+    quickSort(nums, count);
+    int index = binarySearch(nums, count, 11);
+    
+    printf("binary search num 11, index is %d", index);
 }
 
 @end
