@@ -7,10 +7,10 @@
 
 #import "TimerTest.h"
 #import "GCDTimer.h"
-#import "TimerProxy.h"
+#import "ProxyTimer.h"
 
 #define kGCDTimerEnable (0)
-#define kTimerProxyEnable (1)
+#define kProxyTimerEnable (1)
 
 NSString *g_timerName = nil;
 NSTimer *g_timer = nil;
@@ -23,7 +23,7 @@ NSTimer *g_timer = nil;
     [self gcdTimerTest];
 #endif
     
-#if kTimerProxyEnable
+#if kProxyTimerEnable
     [self timerProxyTest];
 #endif
     
@@ -37,7 +37,7 @@ NSTimer *g_timer = nil;
     }
 #endif
     
-#if kTimerProxyEnable
+#if kProxyTimerEnable
     if (g_timer) {
         [g_timer invalidate];
         g_timer = nil;
@@ -54,8 +54,7 @@ NSTimer *g_timer = nil;
 }
 
 - (void)timerProxyTest {
-    TimerProxy *proxy = [TimerProxy proxyWithTarget:self];
-    g_timer = [NSTimer scheduledTimerWithTimeInterval:1 target:proxy selector:@selector(handleTimerFunc) userInfo:nil repeats:YES];
+    g_timer = [ProxyTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(handleTimerFunc) userInfo:nil repeats:YES];
 }
 
 - (void)handleTimerFunc {
