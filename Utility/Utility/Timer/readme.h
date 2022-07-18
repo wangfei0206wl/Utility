@@ -19,5 +19,10 @@ NSTimer *timer = [NSTimer timeWithInterval....];
     默认nstimer是加在defaultMode上，解决上述问题时需要将nstimer加在commonModes上
 其三 selector方式时需要考虑循环引用问题(TimerProxy是其解决方案之一)
 
+解决NSTimer循环引用问题方案
+1)使用NSProxy弱引用target对象，使用消息转发方式来解决循环引用问题（参考ProxyTimer)
+2)封装NSTimer弱引用target对象，解决循环引用问题（参考DSTimer）
+3)使用NSTimer的block方式
+
 
 

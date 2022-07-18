@@ -12,6 +12,7 @@
 		7B88096D28850106004242BC /* TimerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88096C28850105004242BC /* TimerTest.m */; };
 		7B88097028850171004242BC /* OCRelevantTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88096F28850171004242BC /* OCRelevantTest.m */; };
 		7B88097428851190004242BC /* ProxyTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88097328851190004242BC /* ProxyTimer.m */; };
+		7B8809772885412D004242BC /* DSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8809762885412D004242BC /* DSTimer.m */; };
 		7BA5299C281A8B990094285E /* CBitTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BA5299B281A8B990094285E /* CBitTree.c */; };
 		7BA5299F281A956B0094285E /* CQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BA5299E281A956B0094285E /* CQueue.c */; };
 		7BA76AFF2811407600245B3A /* UILabel+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76AF62811407600245B3A /* UILabel+Factory.m */; };
@@ -56,6 +57,8 @@
 		7B88097128850940004242BC /* readme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readme.h; sourceTree = "<group>"; };
 		7B88097228851190004242BC /* ProxyTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProxyTimer.h; sourceTree = "<group>"; };
 		7B88097328851190004242BC /* ProxyTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyTimer.m; sourceTree = "<group>"; };
+		7B8809752885412D004242BC /* DSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSTimer.h; sourceTree = "<group>"; };
+		7B8809762885412D004242BC /* DSTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSTimer.m; sourceTree = "<group>"; };
 		7BA5299A281A8B990094285E /* CBitTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBitTree.h; sourceTree = "<group>"; };
 		7BA5299B281A8B990094285E /* CBitTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CBitTree.c; sourceTree = "<group>"; };
 		7BA5299D281A956B0094285E /* CQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQueue.h; sourceTree = "<group>"; };
@@ -341,6 +344,8 @@
 				7BE3C78F280FF96200259C83 /* TimerProxy.m */,
 				7B88097228851190004242BC /* ProxyTimer.h */,
 				7B88097328851190004242BC /* ProxyTimer.m */,
+				7B8809752885412D004242BC /* DSTimer.h */,
+				7B8809762885412D004242BC /* DSTimer.m */,
 				7B88096B28850105004242BC /* TimerTest.h */,
 				7B88096C28850105004242BC /* TimerTest.m */,
 				7B88097128850940004242BC /* readme.h */,
@@ -494,6 +499,7 @@
 				7B88096D28850106004242BC /* TimerTest.m in Sources */,
 				7BE3C779280FF92F00259C83 /* SceneDelegate.m in Sources */,
 				7BC01979286E9A8F000996F5 /* CSortAlgorithm.c in Sources */,
+				7B8809772885412D004242BC /* DSTimer.m in Sources */,
 				7BA5299C281A8B990094285E /* CBitTree.c in Sources */,
 				7BABA223282CBE5E0008ADFD /* CTMediator+CTMediatorModuleActions.m in Sources */,
 				7BDF785F28124A6600717E0D /* CSolution.c in Sources */,
