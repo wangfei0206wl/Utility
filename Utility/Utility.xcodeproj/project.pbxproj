@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		45924B14ACDDE0492DB204E7 /* Pods_Utility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86591B75A129941206A24276 /* Pods_Utility.framework */; };
 		7B88096A2884FA46004242BC /* CSearchAlgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B8809692884FA46004242BC /* CSearchAlgorithm.c */; };
+		7B88096D28850106004242BC /* TimerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88096C28850105004242BC /* TimerTest.m */; };
+		7B88097028850171004242BC /* OCRelevantTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88096F28850171004242BC /* OCRelevantTest.m */; };
 		7BA5299C281A8B990094285E /* CBitTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BA5299B281A8B990094285E /* CBitTree.c */; };
 		7BA5299F281A956B0094285E /* CQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BA5299E281A956B0094285E /* CQueue.c */; };
 		7BA76AFF2811407600245B3A /* UILabel+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76AF62811407600245B3A /* UILabel+Factory.m */; };
@@ -46,6 +48,10 @@
 		7B36247B282F40D300547C4A /* 启动流程及优化.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "启动流程及优化.h"; sourceTree = "<group>"; };
 		7B8809682884FA46004242BC /* CSearchAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSearchAlgorithm.h; sourceTree = "<group>"; };
 		7B8809692884FA46004242BC /* CSearchAlgorithm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CSearchAlgorithm.c; sourceTree = "<group>"; };
+		7B88096B28850105004242BC /* TimerTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerTest.h; sourceTree = "<group>"; };
+		7B88096C28850105004242BC /* TimerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTest.m; sourceTree = "<group>"; };
+		7B88096E28850171004242BC /* OCRelevantTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCRelevantTest.h; sourceTree = "<group>"; };
+		7B88096F28850171004242BC /* OCRelevantTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCRelevantTest.m; sourceTree = "<group>"; };
 		7BA5299A281A8B990094285E /* CBitTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBitTree.h; sourceTree = "<group>"; };
 		7BA5299B281A8B990094285E /* CBitTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CBitTree.c; sourceTree = "<group>"; };
 		7BA5299D281A956B0094285E /* CQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQueue.h; sourceTree = "<group>"; };
@@ -310,6 +316,8 @@
 				7BE3C778280FF92F00259C83 /* SceneDelegate.m */,
 				7BE3C77A280FF92F00259C83 /* ViewController.h */,
 				7BE3C77B280FF92F00259C83 /* ViewController.m */,
+				7B88096E28850171004242BC /* OCRelevantTest.h */,
+				7B88096F28850171004242BC /* OCRelevantTest.m */,
 				7BA76B052811417300245B3A /* UtilityPrefixHeader.pch */,
 				7BE3C77D280FF92F00259C83 /* Main.storyboard */,
 				7BE3C780280FF93100259C83 /* Assets.xcassets */,
@@ -327,6 +335,8 @@
 				7BE3C78E280FF96200259C83 /* GCDTimer.m */,
 				7BE3C791280FF96200259C83 /* TimerProxy.h */,
 				7BE3C78F280FF96200259C83 /* TimerProxy.m */,
+				7B88096B28850105004242BC /* TimerTest.h */,
+				7B88096C28850105004242BC /* TimerTest.m */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -463,6 +473,7 @@
 				7BABA21F282CBE260008ADFD /* CTMediator+HandyTools.m in Sources */,
 				7B88096A2884FA46004242BC /* CSearchAlgorithm.c in Sources */,
 				7BE3C776280FF92F00259C83 /* AppDelegate.m in Sources */,
+				7B88097028850171004242BC /* OCRelevantTest.m in Sources */,
 				7BABA212282CAE740008ADFD /* PersonViewController.m in Sources */,
 				7BA76B092811575800245B3A /* Solution.cpp in Sources */,
 				7BA76B0F28115AAE00245B3A /* AlgorithmHelper.mm in Sources */,
@@ -472,6 +483,7 @@
 				7BABA215282CAE840008ADFD /* ClassViewController.m in Sources */,
 				7BE3C787280FF93100259C83 /* main.m in Sources */,
 				7BA76AFF2811407600245B3A /* UILabel+Factory.m in Sources */,
+				7B88096D28850106004242BC /* TimerTest.m in Sources */,
 				7BE3C779280FF92F00259C83 /* SceneDelegate.m in Sources */,
 				7BC01979286E9A8F000996F5 /* CSortAlgorithm.c in Sources */,
 				7BA5299C281A8B990094285E /* CBitTree.c in Sources */,

@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "AlgorithmHelper.h"
 #import "SampleManager.h"
+#import "OCRelevantTest.h"
 
 @interface ViewController ()
 
@@ -18,8 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-#if 1
+#if 0
     [AlgorithmHelper test];
+#endif
+    
+#if 1
+    [OCRelevantTest test];
 #endif
 
 #if 0
