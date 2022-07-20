@@ -13,6 +13,7 @@
 		7B88097028850171004242BC /* OCRelevantTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88096F28850171004242BC /* OCRelevantTest.m */; };
 		7B88097428851190004242BC /* ProxyTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88097328851190004242BC /* ProxyTimer.m */; };
 		7B8809772885412D004242BC /* DSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8809762885412D004242BC /* DSTimer.m */; };
+		7B88097B28880166004242BC /* CADisplayLinkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88097A28880166004242BC /* CADisplayLinkTest.m */; };
 		7BA5299C281A8B990094285E /* CBitTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BA5299B281A8B990094285E /* CBitTree.c */; };
 		7BA5299F281A956B0094285E /* CQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BA5299E281A956B0094285E /* CQueue.c */; };
 		7BA76AFF2811407600245B3A /* UILabel+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76AF62811407600245B3A /* UILabel+Factory.m */; };
@@ -59,6 +60,9 @@
 		7B88097328851190004242BC /* ProxyTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyTimer.m; sourceTree = "<group>"; };
 		7B8809752885412D004242BC /* DSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSTimer.h; sourceTree = "<group>"; };
 		7B8809762885412D004242BC /* DSTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSTimer.m; sourceTree = "<group>"; };
+		7B8809782887F8BF004242BC /* readme_CADisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readme_CADisplayLink.h; sourceTree = "<group>"; };
+		7B88097928880166004242BC /* CADisplayLinkTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADisplayLinkTest.h; sourceTree = "<group>"; };
+		7B88097A28880166004242BC /* CADisplayLinkTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADisplayLinkTest.m; sourceTree = "<group>"; };
 		7BA5299A281A8B990094285E /* CBitTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBitTree.h; sourceTree = "<group>"; };
 		7BA5299B281A8B990094285E /* CBitTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CBitTree.c; sourceTree = "<group>"; };
 		7BA5299D281A956B0094285E /* CQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQueue.h; sourceTree = "<group>"; };
@@ -348,7 +352,10 @@
 				7B8809762885412D004242BC /* DSTimer.m */,
 				7B88096B28850105004242BC /* TimerTest.h */,
 				7B88096C28850105004242BC /* TimerTest.m */,
+				7B88097928880166004242BC /* CADisplayLinkTest.h */,
+				7B88097A28880166004242BC /* CADisplayLinkTest.m */,
 				7B88097128850940004242BC /* readme.h */,
+				7B8809782887F8BF004242BC /* readme_CADisplayLink.h */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -483,6 +490,7 @@
 				7BE3C77C280FF92F00259C83 /* ViewController.m in Sources */,
 				7BABA220282CBE260008ADFD /* CTMediator.m in Sources */,
 				7BABA21F282CBE260008ADFD /* CTMediator+HandyTools.m in Sources */,
+				7B88097B28880166004242BC /* CADisplayLinkTest.m in Sources */,
 				7B88096A2884FA46004242BC /* CSearchAlgorithm.c in Sources */,
 				7BE3C776280FF92F00259C83 /* AppDelegate.m in Sources */,
 				7B88097028850171004242BC /* OCRelevantTest.m in Sources */,
