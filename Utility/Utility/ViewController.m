@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-#if 0
+#if 1
     [AlgorithmHelper test];
 #endif
     
@@ -34,7 +34,7 @@
     });
 #endif
     
-#if 1
+#if 0
     CADisplayLinkTest *test = [[CADisplayLinkTest alloc] init];
     [self.view addSubview:test];
     [test mas_makeConstraints:^(MASConstraintMaker *make) {

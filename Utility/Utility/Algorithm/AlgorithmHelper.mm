@@ -64,11 +64,11 @@
     [AlgorithmHelper twoSumTest];
 #endif
     
-#if 0
+#if 1
     [AlgorithmHelper quickSortTest];
 #endif
     
-#if 1
+#if 0
     [AlgorithmHelper binarySearchTest];
 #endif
     
