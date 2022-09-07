@@ -14,6 +14,7 @@
 		7B88097428851190004242BC /* ProxyTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88097328851190004242BC /* ProxyTimer.m */; };
 		7B8809772885412D004242BC /* DSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8809762885412D004242BC /* DSTimer.m */; };
 		7B88097B28880166004242BC /* CADisplayLinkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88097A28880166004242BC /* CADisplayLinkTest.m */; };
+		7B8F9FF828C87B67007C325F /* CLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B8F9FF728C87B67007C325F /* CLinkList.c */; };
 		7BA5299C281A8B990094285E /* CBitTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BA5299B281A8B990094285E /* CBitTree.c */; };
 		7BA5299F281A956B0094285E /* CQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BA5299E281A956B0094285E /* CQueue.c */; };
 		7BA76AFF2811407600245B3A /* UILabel+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76AF62811407600245B3A /* UILabel+Factory.m */; };
@@ -63,6 +64,8 @@
 		7B8809782887F8BF004242BC /* readme_CADisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readme_CADisplayLink.h; sourceTree = "<group>"; };
 		7B88097928880166004242BC /* CADisplayLinkTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADisplayLinkTest.h; sourceTree = "<group>"; };
 		7B88097A28880166004242BC /* CADisplayLinkTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADisplayLinkTest.m; sourceTree = "<group>"; };
+		7B8F9FF628C87B67007C325F /* CLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLinkList.h; sourceTree = "<group>"; };
+		7B8F9FF728C87B67007C325F /* CLinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CLinkList.c; sourceTree = "<group>"; };
 		7BA5299A281A8B990094285E /* CBitTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBitTree.h; sourceTree = "<group>"; };
 		7BA5299B281A8B990094285E /* CBitTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CBitTree.c; sourceTree = "<group>"; };
 		7BA5299D281A956B0094285E /* CQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQueue.h; sourceTree = "<group>"; };
@@ -196,6 +199,8 @@
 				7BA76B072811575800245B3A /* Solution.cpp */,
 				7BDF785D28124A6600717E0D /* CSolution.h */,
 				7BDF785E28124A6600717E0D /* CSolution.c */,
+				7B8F9FF628C87B67007C325F /* CLinkList.h */,
+				7B8F9FF728C87B67007C325F /* CLinkList.c */,
 				7BA5299A281A8B990094285E /* CBitTree.h */,
 				7BA5299B281A8B990094285E /* CBitTree.c */,
 				7BA5299D281A956B0094285E /* CQueue.h */,
@@ -503,6 +508,7 @@
 				7BABA215282CAE840008ADFD /* ClassViewController.m in Sources */,
 				7B88097428851190004242BC /* ProxyTimer.m in Sources */,
 				7BE3C787280FF93100259C83 /* main.m in Sources */,
+				7B8F9FF828C87B67007C325F /* CLinkList.c in Sources */,
 				7BA76AFF2811407600245B3A /* UILabel+Factory.m in Sources */,
 				7B88096D28850106004242BC /* TimerTest.m in Sources */,
 				7BE3C779280FF92F00259C83 /* SceneDelegate.m in Sources */,
