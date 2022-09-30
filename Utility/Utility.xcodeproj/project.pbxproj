@@ -64,6 +64,7 @@
 		7B8809782887F8BF004242BC /* readme_CADisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readme_CADisplayLink.h; sourceTree = "<group>"; };
 		7B88097928880166004242BC /* CADisplayLinkTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADisplayLinkTest.h; sourceTree = "<group>"; };
 		7B88097A28880166004242BC /* CADisplayLinkTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADisplayLinkTest.m; sourceTree = "<group>"; };
+		7B888F7A28E7284300126865 /* bak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bak.h; sourceTree = "<group>"; };
 		7B8F9FF628C87B67007C325F /* CLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLinkList.h; sourceTree = "<group>"; };
 		7B8F9FF728C87B67007C325F /* CLinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CLinkList.c; sourceTree = "<group>"; };
 		7BA5299A281A8B990094285E /* CBitTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBitTree.h; sourceTree = "<group>"; };
@@ -157,6 +158,14 @@
 				7B36247B282F40D300547C4A /* 启动流程及优化.h */,
 			);
 			path = BaseKnowledge;
+			sourceTree = "<group>";
+		};
+		7B888F7928E7284300126865 /* Economics */ = {
+			isa = PBXGroup;
+			children = (
+				7B888F7A28E7284300126865 /* bak.h */,
+			);
+			path = Economics;
 			sourceTree = "<group>";
 		};
 		7BA76AF42811407600245B3A /* Category */ = {
@@ -319,6 +328,7 @@
 		7BE3C773280FF92F00259C83 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				7B888F7928E7284300126865 /* Economics */,
 				7B362479282E57B900547C4A /* BaseKnowledge */,
 				7BABA228282CEFB70008ADFD /* Encryption */,
 				7BABA20A282CAE2A0008ADFD /* Componentized */,
